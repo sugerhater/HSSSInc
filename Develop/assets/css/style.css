@@ -29,8 +29,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/*changed from <div> to <nav>, because <nav> here is more semantic. */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,11 +38,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -56,7 +56,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.cover-photo {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -142,7 +142,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.section-block {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -151,7 +151,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/* .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -167,15 +167,15 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+.float-left {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
-.online-reputation-management img {
+.float-right {
     max-height: 200px;
     float:right;
     margin-left: 25px;
