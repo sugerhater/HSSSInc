@@ -55,7 +55,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Changed the photo name from hero to cover-photo */
 .cover-photo {
     height: 800px;
     width: 100%;
@@ -70,8 +70,9 @@ p {
     display: inline-block;
     margin-left: 20px;
     height: 100%;
-    clear:both;
 }
+
+/* Combined the same 3 classed into one class */
 
 .section-block {
     margin-bottom: 20px;
@@ -81,6 +82,8 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
+/* There were used to be two float-left and float-right classes. I combined them into 1 */
 
 .float-left {
     max-height: 200px;
@@ -100,6 +103,7 @@ p {
 }
 
 
+/* Changed the class names. Condensed some identical classes */
 .aside {
     margin-right: 20px;
     padding: 20px;
@@ -128,7 +132,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/* to line 205, for aside section.*/
+
 .footer {
     padding: 30px;
     clear: both;
